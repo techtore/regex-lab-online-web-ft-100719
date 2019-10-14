@@ -20,5 +20,5 @@ end
 end
 
 def valid_phone_number?(phone)
-phone.match(/^[+]*[(]{0,1}[0-9]{1,4}[)]{0,1}[-\s\./0-9]*$/)
+phone.match(/^[+]*{0,1}[0-9]{1,4}{0,1}[-\s\./0-9]*$/)
 end
