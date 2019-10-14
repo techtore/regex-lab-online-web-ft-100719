@@ -20,5 +20,5 @@ end
 end
 
 def valid_phone_number?(phone)
-phone.match(/^.\[1-9]\d{2}\.\d{3}\.\d{4}/)
+phone.match(/^.\[1-9]\w{2}\.\w{3}\.\w{4}/)
 end
